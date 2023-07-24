@@ -1,5 +1,39 @@
-@media (max-width: 1024px) {
-    input{
-        width: 200px;
-    }
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 50vh;
+    padding: 5vh;
+    background: rgba(0, 0, 0, 0.514);
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+    border: 2px solid rgba(255, 255, 255, 0.425);
+}
+.bodyInput{
+    width: 80%;
+    padding: 1vh 1.5vh;
+    margin: 2vh 0;
+    border-radius: 0.5rem;
+    border: solid #24a887;
+    outline: none;
+}
+.bodyContent{
+    margin-bottom: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.qrImage{
+    width: 80%;
 }
